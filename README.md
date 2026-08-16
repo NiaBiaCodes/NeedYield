@@ -29,6 +29,10 @@ uvicorn app.main:app --reload
 
 The API runs at `http://127.0.0.1:8000`. Health check: `GET /api/health`.
 
+## Deployment
+
+The repository includes a Render Blueprint that deploys the FastAPI backend and React frontend as separate connected services. Create a new Render Blueprint from this repository and provide the requested Gemini, NYC Open Data, and Supabase environment values in the Render dashboard. The frontend API URL is populated from the backend service automatically. After deployment, set the deployed frontend URL as the Supabase Auth Site URL and add it to the allowed redirect URLs.
+
 ### Frontend
 
 ```bash

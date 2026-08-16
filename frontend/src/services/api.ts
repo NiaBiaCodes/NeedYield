@@ -1,6 +1,7 @@
 import type { FoodLocation, PublicResource, Reservation } from '../types'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api'
+const configuredApiUrl = String(import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000').replace(/\/$/, '')
+const API_URL = configuredApiUrl.endsWith('/api') ? configuredApiUrl : `${configuredApiUrl}/api`
 
 export class ApiRequestError extends Error {
   constructor(message: string, public status: number) { super(message) }
