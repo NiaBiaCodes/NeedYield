@@ -1,0 +1,21 @@
+[
+  {
+    "id": "east-harlem-harvest-hub", "name": "East Harlem Harvest Hub", "address": "1651 Lexington Ave, New York, NY 10029", "borough": "Manhattan", "neighborhood": "East Harlem", "latitude": 40.7917, "longitude": -73.9462, "opening_time": "10:00 AM", "closing_time": "6:00 PM", "accepted_categories": ["vegetables", "fruit", "herbs"], "saturday_needs": {"tomatoes": "high", "cucumbers": "medium", "kale": "low", "peppers": "medium"}, "requested_quantities": {"tomatoes": 30, "cucumbers": 20}, "inventory": {"tomatoes": 18, "spinach": 7, "peppers": 12}, "verified_partner": true, "participating": true, "accepts_saturday": true, "demo": true, "community_need_score": 0.86, "community_need_source": "NYC Open Data fallback"
+  },
+  {
+    "id": "harlem-green-table", "name": "Harlem Green Table", "address": "252 W 116th St, New York, NY 10026", "borough": "Manhattan", "neighborhood": "Harlem", "latitude": 40.8033, "longitude": -73.9546, "opening_time": "11:00 AM", "closing_time": "5:30 PM", "accepted_categories": ["vegetables", "fruit", "herbs"], "saturday_needs": {"tomatoes": "high", "cucumbers": "high", "kale": "medium"}, "requested_quantities": {"tomatoes": 25, "cucumbers": 10}, "inventory": {"kale": 15, "cucumbers": 9, "herbs": 20}, "verified_partner": true, "participating": true, "accepts_saturday": true, "demo": true, "community_need_score": 0.82, "community_need_source": "NYC Open Data fallback"
+  },
+  {
+    "id": "mott-haven-produce-share", "name": "Mott Haven Produce Share", "address": "421 E 138th St, Bronx, NY 10454", "borough": "Bronx", "neighborhood": "South Bronx", "latitude": 40.8081, "longitude": -73.9235, "opening_time": "9:30 AM", "closing_time": "6:30 PM", "accepted_categories": ["vegetables", "fruit", "herbs"], "saturday_needs": {"tomatoes": "high", "cucumbers": "medium", "carrots": "high"}, "requested_quantities": {"tomatoes": 20, "cucumbers": 10}, "inventory": {"zucchini": 22, "tomatoes": 10, "carrots": 16}, "verified_partner": true, "participating": true, "accepts_saturday": true, "demo": true, "community_need_score": 0.95, "community_need_source": "NYC Open Data fallback"
+  },
+  {
+    "id": "bed-stuy-fresh-corner", "name": "Bed-Stuy Fresh Corner", "address": "1958 Fulton St, Brooklyn, NY 11233", "borough": "Brooklyn", "neighborhood": "Bedford-Stuyvesant", "latitude": 40.6785, "longitude": -73.9207, "opening_time": "12:00 PM", "closing_time": "7:00 PM", "accepted_categories": ["vegetables", "fruit", "herbs"], "saturday_needs": {"tomatoes": "medium", "cucumbers": "high", "peppers": "medium"}, "requested_quantities": {"tomatoes": 25, "cucumbers": 12}, "inventory": {"cucumbers": 14, "peppers": 8, "kale": 11}, "verified_partner": true, "participating": true, "accepts_saturday": true, "demo": true, "community_need_score": 0.88, "community_need_source": "NYC Open Data fallback"
+  },
+  {
+    "id": "jackson-heights-veggie-stop", "name": "Jackson Heights Veggie Stop", "address": "35-20 90th St, Queens, NY 11372", "borough": "Queens", "neighborhood": "Jackson Heights", "latitude": 40.7514, "longitude": -73.8764, "opening_time": "10:30 AM", "closing_time": "6:00 PM", "accepted_categories": ["vegetables", "fruit", "herbs"], "saturday_needs": {"tomatoes": "medium", "cucumbers": "high", "spinach": "medium"}, "requested_quantities": {"tomatoes": 18, "cucumbers": 15}, "inventory": {"spinach": 13, "carrots": 24, "herbs": 9}, "verified_partner": true, "participating": true, "accepts_saturday": true, "demo": true, "community_need_score": 0.74, "community_need_source": "NYC Open Data fallback"
+  },
+  {
+    "id": "heights-community-pantry", "name": "Heights Community Pantry", "address": "615 W 181st St, New York, NY 10033", "borough": "Manhattan", "neighborhood": "Washington Heights", "latitude": 40.8491, "longitude": -73.9345, "opening_time": "9:00 AM", "closing_time": "5:00 PM", "accepted_categories": ["vegetables", "fruit", "herbs"], "saturday_needs": {"tomatoes": "high", "cucumbers": "medium", "zucchini": "high"}, "requested_quantities": {"tomatoes": 25, "cucumbers": 10}, "inventory": {"tomatoes": 6, "zucchini": 17, "peppers": 10}, "verified_partner": true, "participating": true, "accepts_saturday": true, "demo": true, "community_need_score": 0.84, "community_need_source": "NYC Open Data fallback"
+  }
+]
+

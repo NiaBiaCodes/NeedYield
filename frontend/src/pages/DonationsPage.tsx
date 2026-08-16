@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'
+export function DonationsPage() { return <div className="page container"><div className="page-header"><span className="kicker">GARDENER DASHBOARD</span><h1>My donations</h1><p>Your confirmed harvest allocations will appear here as the network grows.</p></div><div className="empty-state"><span>✦</span><h2>No saved donations yet</h2><p>Photograph a harvest, confirm the AI estimate, and choose its destination.</p><Link className="button button-primary" to="/donate">Donate produce</Link></div></div> }

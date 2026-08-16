@@ -1,0 +1,103 @@
+import type { FoodLocation } from '../types'
+
+export const seedLocations: FoodLocation[] = [
+  {
+    id: 'east-harlem-harvest-hub',
+    name: 'East Harlem Harvest Hub',
+    address: '1651 Lexington Ave, New York, NY 10029',
+    borough: 'Manhattan',
+    neighborhood: 'East Harlem',
+    latitude: 40.7917,
+    longitude: -73.9462,
+    openingTime: '10:00 AM',
+    closingTime: '6:00 PM',
+    inventory: [
+      { produce: 'Tomatoes', quantity: 18 },
+      { produce: 'Spinach', quantity: 7 },
+      { produce: 'Peppers', quantity: 12 },
+    ],
+  },
+  {
+    id: 'harlem-green-table',
+    name: 'Harlem Green Table',
+    address: '252 W 116th St, New York, NY 10026',
+    borough: 'Manhattan',
+    neighborhood: 'Harlem',
+    latitude: 40.8033,
+    longitude: -73.9546,
+    openingTime: '11:00 AM',
+    closingTime: '5:30 PM',
+    inventory: [
+      { produce: 'Kale', quantity: 15 },
+      { produce: 'Cucumbers', quantity: 9 },
+      { produce: 'Herbs', quantity: 20 },
+    ],
+  },
+  {
+    id: 'mott-haven-produce-share',
+    name: 'Mott Haven Produce Share',
+    address: '421 E 138th St, Bronx, NY 10454',
+    borough: 'Bronx',
+    neighborhood: 'South Bronx',
+    latitude: 40.8081,
+    longitude: -73.9235,
+    openingTime: '9:30 AM',
+    closingTime: '6:30 PM',
+    inventory: [
+      { produce: 'Zucchini', quantity: 22 },
+      { produce: 'Tomatoes', quantity: 10 },
+      { produce: 'Carrots', quantity: 16 },
+    ],
+  },
+  {
+    id: 'bed-stuy-fresh-corner',
+    name: 'Bed-Stuy Fresh Corner',
+    address: '1958 Fulton St, Brooklyn, NY 11233',
+    borough: 'Brooklyn',
+    neighborhood: 'Bedford-Stuyvesant',
+    latitude: 40.6785,
+    longitude: -73.9207,
+    openingTime: '12:00 PM',
+    closingTime: '7:00 PM',
+    inventory: [
+      { produce: 'Cucumbers', quantity: 14 },
+      { produce: 'Peppers', quantity: 8 },
+      { produce: 'Kale', quantity: 11 },
+    ],
+  },
+  {
+    id: 'jackson-heights-veggie-stop',
+    name: 'Jackson Heights Veggie Stop',
+    address: '35-20 90th St, Queens, NY 11372',
+    borough: 'Queens',
+    neighborhood: 'Jackson Heights',
+    latitude: 40.7514,
+    longitude: -73.8764,
+    openingTime: '10:30 AM',
+    closingTime: '6:00 PM',
+    inventory: [
+      { produce: 'Spinach', quantity: 13 },
+      { produce: 'Carrots', quantity: 24 },
+      { produce: 'Herbs', quantity: 9 },
+    ],
+  },
+  {
+    id: 'heights-community-pantry',
+    name: 'Heights Community Pantry',
+    address: '615 W 181st St, New York, NY 10033',
+    borough: 'Manhattan',
+    neighborhood: 'Washington Heights',
+    latitude: 40.8491,
+    longitude: -73.9345,
+    openingTime: '9:00 AM',
+    closingTime: '5:00 PM',
+    inventory: [
+      { produce: 'Tomatoes', quantity: 6 },
+      { produce: 'Zucchini', quantity: 17 },
+      { produce: 'Peppers', quantity: 10 },
+    ],
+  },
+]
+
+export const boroughs = ['All boroughs', 'Manhattan', 'Bronx', 'Brooklyn', 'Queens']
+

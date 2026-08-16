@@ -1,0 +1,11 @@
+{
+  "description": "Add human-labeled harvest images before reporting vision performance. Empty by design: NeedYield does not yet have a labeled image dataset.",
+  "case_schema": {
+    "image_path": "path/to/labeled-image.jpg",
+    "expected_label": "tomato",
+    "predicted_label": "tomato",
+    "actual_quantity": 20,
+    "predicted_quantity": 18
+  },
+  "cases": []
+}

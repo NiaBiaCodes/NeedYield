@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Where can I find produce in East Harlem?",
+    "expected_resource_ids": ["east-harlem-harvest-hub"]
+  },
+  {
+    "question": "What fresh food resource is in the South Bronx?",
+    "expected_resource_ids": ["mott-haven-produce-share"]
+  },
+  {
+    "question": "Show me a produce pickup option in Jackson Heights Queens.",
+    "expected_resource_ids": ["jackson-heights-veggie-stop"]
+  },
+  {
+    "question": "Where is the Washington Heights food resource?",
+    "expected_resource_ids": ["heights-community-pantry"]
+  },
+  {
+    "question": "Is there a fresh produce location in Bedford-Stuyvesant Brooklyn?",
+    "expected_resource_ids": ["bed-stuy-fresh-corner"]
+  }
+]
